@@ -34,6 +34,21 @@ useEffect(() => {
               </div>
             )) : <p>No NFTs found.</p>}
           </div>
-        </div>
-      );
+        {/* XP Claim Button – Simulated */}
+        <button
+          onClick={() => alert("🎉 XP Claimed!")}
+          style={{
+            marginTop: '1rem',
+            padding: '10px 20px',
+            backgroundColor: '#00b894',
+            color: 'white',
+            border: 'none',
+            borderRadius: '5px',
+            cursor: 'pointer'
+          }}
+        >
+          Claim XP
+        </button>
+      </div>
+    );
 }
